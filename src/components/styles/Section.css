@@ -1,0 +1,91 @@
+.section-1{
+    width: 100%;
+    height: 100vh;
+   background: linear-gradient(to right bottom, rgba(255, 88,10,0.349), rgba(17,17,17,0.315)),url(../assets/photo.jpg);
+   background-repeat: no-repeat;
+   overflow: hidden;  
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 9rem 1rem;
+}
+
+.texts{
+    width: 750px;
+    cursor: pointer;
+}
+.texts h1{
+    text-transform: uppercase;
+    width: 750px;
+    font-size: 55px;
+    color: white;
+    text-shadow: 3px 0px 5px white;
+}
+.texts h4 {
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    text-shadow: 1.5px 0px 1.5px white
+}
+.texts span{
+    border-top: 2px solid white;
+    color: rgb(216, 155, 41);
+}
+.texts button {
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    font-weight: bolder;
+    box-shadow: 2px 0px 1px;
+    margin: 1rem;
+    margin-right: 1rem;
+}
+.texts .button:hover{
+    background-color: rgb(40, 114, 179);
+    color: black;
+    transition: 1s ease;
+    transform: scale(120%);
+}
+.black-box{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+
+}
+.black-box p {
+    color: aliceblue;
+    padding: 20px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    
+}
+.black-box button {
+    display: flex;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 40px;
+    border: none;
+    
+   
+}
+.black-box  .arrow-forward{
+   margin-left: 1rem;
+   font-size: 20px;
+   
+
+}    

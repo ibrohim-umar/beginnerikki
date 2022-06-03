@@ -1,0 +1,73 @@
+.header{
+    position: absolute;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+.logo h1{
+    user-select: none;
+    align-items: center;
+    color: rgb(252, 246, 246);
+
+}
+.number {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bolder;
+}
+.number span {
+    width: 100px;
+    height: 2px;
+    background-color: rgb(243, 239, 239);
+}
+.right{
+    color: rgb(250, 243, 243);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right .sh-card{
+    font-size: 35px;
+}
+.right  .M-card {
+    font-size: 45px;
+}
+.slider-active{
+    width: 25%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: black;
+    /* right: -100%; */
+    transition: 1s ease;
+
+}
+
+.slider{
+    margin-top: -100rem;
+    /* transition: 1s; */
+}
+ul {
+    list-style: none;
+    
+}
+ul li a{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+
+}
